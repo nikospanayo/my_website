@@ -122,7 +122,7 @@ ggplot(tidyweather, aes(x=date, y = delta))+
 
 ```
 
-Is the effect of increasing temperature more pronounced in some months? We use `facet_wrap()` to produce a seperate scatter plot for each month, again with a smoothing line. Our chart now has human-readable labels; that is, each month is labeled "Jan", "Feb", "Mar" (full or abbreviated month names are fine), not `1`, `2`, `3`. 
+Is the effect of increasing temperature more pronounced in some months? We use `facet_wrap()` to produce a separate scatter plot for each month, again with a smoothing line. Our chart now has human-readable labels; that is, each month is labeled "Jan", "Feb", "Mar" (full or abbreviated month names are fine), not `1`, `2`, `3`. 
 
 ```{r facet_wrap}
 
@@ -1054,19 +1054,3 @@ ggplot(bikes_week_avg_new, aes(x = week)) +
 
   )
 ```
-
-# Details
-
-- Who did you collaborate with: Xenia Huber, Wei Guo, Harsh Tripathi,Xinyue Zhang, Nikolaos Panayotou
-- Approximately how much time did you spend on this problem set: 10 hours
-- What, if anything, gave you the most trouble: No problems
-
-
-
-# Rubric
-
-Check minus (1/5): Displays minimal effort. Doesn't complete all components. Code is poorly written and not documented. Uses the same type of plot for each graph, or doesn't use plots appropriate for the variables being analyzed. 
-
-Check (3/5): Solid effort. Hits all the elements. No clear mistakes. Easy to follow (both the code and the output). 
-
-Check plus (5/5): Finished all components of the assignment correctly and addressed both challenges. Code is well-documented (both self-documented and with additional comments as necessary). Used tidyverse, instead of base R. Graphs and tables are properly labelled. Analysis is clear and easy to follow, either because graphs are labeled clearly or you've written additional text to describe how you interpret the output.

@@ -84,8 +84,8 @@ params:
       - image: pic01.jpg
         subtitle: LBS MAM group project
         title: R project
-        url: projects/project1
-      - image: pic02.jpg
+        url: "projects/project1"
+        - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
         url: blogs/tempus
