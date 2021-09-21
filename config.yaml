@@ -82,9 +82,9 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
+        subtitle: LBS MAM group project
         title: R project
-        url: blogs/aliquam
+        url: projects/project1
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus
